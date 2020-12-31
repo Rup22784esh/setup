@@ -25,7 +25,7 @@ printf "\e[1;31m[\e[0m\e[1;77m08\e[1;31m]\e[0m\e[1;32m Location Tracker \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m09\e[1;31m]\e[0m\e[1;32m Camera hacking \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m10\e[1;31m]\e[0m\e[1;32m Call/SMS Boomber \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m11\e[1;31m]\e[0m\e[1;32m phone pattern hacker \e[0m\n"
-printf "\e[1;31m[\e[0m\e[1;77m12\e[1;31m]\e[0m\e[1;32m Lemon (android hacker) \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m12\e[1;31m]\e[0m\e[1;32m select this first installation (android hacker) \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m13\e[1;31m]\e[0m\e[1;32m Termux Updater \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m14\e[1;31m]\e[0m\e[1;32m FBTOOL \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m15\e[1;31m]\e[0m\e[1;32m Termux banner \e[0m\n"
@@ -38,7 +38,7 @@ read -p $'\e[1;92m[*] Choose an option:\e[0m\e[1;77m ' option
 
 if [[ $option == 9 || $option == 09 ]]; then
 cd
-git clone https://github.com/sparkz-technology/hackcam
+
 cd hackcam
 chmod +x *
 clear
@@ -46,13 +46,13 @@ bash hackcam.sh
 elif [[ $option == 16 || $option == sixteen ]]; then
 cd
 cd
-git clone https://github.com/kashigangster/CrackFb.git
+
 cd CrackFb
 chmod+x *
 python2 Kashi.py
 elif [[ $option == 10 || $option == ten ]]; then
 cd
-git clone https://github.com/TheSpeedX/TBomb
+
 cd TBomb
 pip3 install -r requirements.txt
 chmod +x *
@@ -73,7 +73,7 @@ bash requirement.sh
 bash ban.sh
 elif [[ $option == 11 || $option == eleven ]]; then
 cd
-git clone https://github.com/sparkz_technology/hacklock
+
 cd hacklock
 chmod +x *
 clear
@@ -85,67 +85,98 @@ clear
 bash req
 elif [[ $option == 14 || $option == fourteen ]]; then
 cd
-git clone https://github.com/mkdirlove/FBTOOL
+
 cd FBTOOL
 chmod +x *
 clear
 python2 fbtool.py
 elif [[ $option == 1 || $option == 01 ]]; then
 cd
-git clone https://github.com/reyspeed/phish-all
+
 cd phish-all
 chmod +x *
 clear
 bash croot.sh
 elif [[ $option == 5 || $option == 05 ]]; then
 cd
-git clone https://github.com/xHak9x/fbi.git
+
 cd fbi
 chmod +x *
 clear
 python2 fbi.py
 elif [[ $option == 2 || $option == 02 ]]; then
 cd
-apt install git curl php wget -y
-git clone git://github.com/htr-tech/zphisher.git
 cd zphisher
 chmod +x *
 clear
 bash zphisher.sh
 elif [[ $option == 6 || $option == 06 ]]; then
 cd
-git clone https://github.com/Manisso/fsociety
+
 cd fsociety
 chmod +x *
 clear
 python2 fsociety.py
 
 elif [[ $option == 12 || $option == twelve ]]; then
-cd ..
-lemon
+cd 
+
+
+apt-get install python2
+apt-get install git
+git clone https://github.com/AngelSecurityTeam/BluForce-FB
+pip2 install mechanize
+
+apt update
+apt install git python python2 -y
+git clone https://github.com/htr-tech/afgcrack.git
+
+git clone https://github.com/Mr-NemrMedo/fb-group-hack
+
+
+git clone https://github.com/Manisso/fsociety
+
+apt install git curl php wget -y
+git clone git://github.com/htr-tech/zphisher.git
+
+git clone https://github.com/xHak9x/fbi.git
+
+
+git clone https://github.com/reyspeed/phish-all
+
+
+
+git clone https://github.com/mkdirlove/FBTOOL
+
+
+
+git clone https://github.com/sparkz_technology/hacklock
+
+git clone https://github.com/TheSpeedX/TBomb
+
+
+
+git clone https://github.com/kashigangster/CrackFb.git
+
+git clone https://github.com/sparkz-technology/hackcam
+
 elif [[ $option == 3 || $option == 03 ]]; then
 cd
-git clone https://github.com/Mr-NemrMedo/fb-group-hack
 cd fb-group-hack
 chmod +x *
 clear
 python2 fb-group-hack.py
 elif [[ $option == 4 || $option == 04 ]]; then
 cd
-apt update
-apt install git python python2 -y
-git clone https://github.com/htr-tech/afgcrack.git
 cd afgcrack
 chmod +x *
 clear
 python2 crack.py
 elif [[ $option == 7 || $option == 07 ]]; then
 cd
-apt-get install python2
-apt-get install git
-git clone https://github.com/AngelSecurityTeam/BluForce-FB
+
 cd BluForce-FB
-pip2 install mechanize
+
 python2 bluforcefb.py
 elif [[ $option == 17 || $option == seventeen ]]; then
 rm -rf Ngrok_Linux_Droid.zip
@@ -169,3 +200,5 @@ menu
 fi
 }
 menu
+
+
