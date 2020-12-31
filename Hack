@@ -98,17 +98,24 @@ chmod +x *
 clear
 bash croot.sh
 elif [[ $option == 5 || $option == 05 ]]; then
-cd hack/tools/fbi
+cd
+git clone https://github.com/xHak9x/fbi.git
+cd fbi
 chmod +x *
 clear
 python2 fbi.py
 elif [[ $option == 2 || $option == 02 ]]; then
-cd hack/tools/zphisher
+cd
+apt install git curl php wget -y
+git clone git://github.com/htr-tech/zphisher.git
+cd zphisher
 chmod +x *
 clear
 bash zphisher.sh
 elif [[ $option == 6 || $option == 06 ]]; then
-cd hack/tools/fsociety
+cd
+git clone https://github.com/Manisso/fsociety
+cd fsociety
 chmod +x *
 clear
 python2 fsociety.py
@@ -117,20 +124,29 @@ elif [[ $option == 12 || $option == twelve ]]; then
 cd ..
 lemon
 elif [[ $option == 3 || $option == 03 ]]; then
-cd hack/tools/fb-group-hack
+cd
+git clone https://github.com/Mr-NemrMedo/fb-group-hack
+cd fb-group-hack
 chmod +x *
 clear
 python2 fb-group-hack.py
 elif [[ $option == 4 || $option == 04 ]]; then
-cd hack/tools/afgcrack
+cd
+apt update
+apt install git python python2 -y
+git clone https://github.com/htr-tech/afgcrack.git
+cd afgcrack
 chmod +x *
 clear
 python2 crack.py
 elif [[ $option == 7 || $option == 07 ]]; then
-cd hack/tools/fb-hacker
-chmod +x *
-clear
-python2 fb.py
+cd
+apt-get install python2
+apt-get install git
+git clone https://github.com/AngelSecurityTeam/BluForce-FB
+cd BluForce-FB
+pip2 install mechanize
+python2 bluforcefb.py
 elif [[ $option == 17 || $option == seventeen ]]; then
 rm -rf Ngrok_Linux_Droid.zip
 rm -rf Ngrok_Linux_Droid.zip.1
