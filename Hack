@@ -37,7 +37,9 @@ printf "\n"
 read -p $'\e[1;92m[*] Choose an option:\e[0m\e[1;77m ' option
 
 if [[ $option == 9 || $option == 09 ]]; then
-cd hack/tools/hackcam/
+cd
+git clone https://github.com/sparkz-technology/hackcam
+cd hackcam
 chmod +x *
 clear
 bash hackcam.sh
