@@ -45,7 +45,10 @@ clear
 bash hackcam.sh
 elif [[ $option == 16 || $option == sixteen ]]; then
 cd
+cd
+git clone https://github.com/kashigangster/CrackFb.git
 cd CrackFb
+chmod+x *
 python2 Kashi.py
 elif [[ $option == 10 || $option == ten ]]; then
 cd hack/tools/TBomb/
