@@ -25,7 +25,7 @@ printf "\e[1;31m[\e[0m\e[1;77m08\e[1;31m]\e[0m\e[1;32m Location Tracker \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m09\e[1;31m]\e[0m\e[1;32m Camera hacking \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m10\e[1;31m]\e[0m\e[1;32m Call/SMS Boomber \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m11\e[1;31m]\e[0m\e[1;32m phone pattern hacker \e[0m\n"
-printf "\e[1;31m[\e[0m\e[1;77m12\e[1;31m]\e[0m\e[1;32m select this first installation (android hacker) \e[0m\n"
+printf "\e[1;31m[\e[0m\e[1;77m12\e[1;31m]\e[0m\e[1;32m not working (android hacker) \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m13\e[1;31m]\e[0m\e[1;32m Termux Updater \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m14\e[1;31m]\e[0m\e[1;32m FBTOOL \e[0m\n"
 printf "\e[1;31m[\e[0m\e[1;77m15\e[1;31m]\e[0m\e[1;32m Termux banner \e[0m\n"
@@ -60,7 +60,6 @@ clear
 bash TBomb.sh
 elif [[ $option == 8 || $option == 08 ]]; then
 cd
-git clone https://github.com/sparkz-technology/Target.git
 cd Target
 chmod +x *
 clear
@@ -119,46 +118,7 @@ clear
 python2 fsociety.py
 
 elif [[ $option == 12 || $option == twelve ]]; then
-cd 
-
-
-apt-get install python2
-apt-get install git
-git clone https://github.com/AngelSecurityTeam/BluForce-FB
-pip2 install mechanize
-
-apt update
-apt install git python python2 -y
-git clone https://github.com/htr-tech/afgcrack.git
-
-git clone https://github.com/Mr-NemrMedo/fb-group-hack
-
-
-git clone https://github.com/Manisso/fsociety
-
-apt install git curl php wget -y
-git clone git://github.com/htr-tech/zphisher.git
-
-git clone https://github.com/xHak9x/fbi.git
-
-
-git clone https://github.com/reyspeed/phish-all
-
-
-
-git clone https://github.com/mkdirlove/FBTOOL
-
-
-
-git clone https://github.com/sparkz_technology/hacklock
-
-git clone https://github.com/TheSpeedX/TBomb
-
-
-
-git clone https://github.com/kashigangster/CrackFb.git
-
-git clone https://github.com/sparkz-technology/hackcam
+./Hack
 
 elif [[ $option == 3 || $option == 03 ]]; then
 cd
