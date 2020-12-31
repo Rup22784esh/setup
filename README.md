@@ -1,2 +1,1 @@
-# setup
-to setup all pack3ts
+apt update && apt upgrade
