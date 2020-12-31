@@ -51,22 +51,30 @@ cd CrackFb
 chmod+x *
 python2 Kashi.py
 elif [[ $option == 10 || $option == ten ]]; then
-cd hack/tools/TBomb/
+cd
+git clone https://github.com/TheSpeedX/TBomb
+cd TBomb
+pip3 install -r requirements.txt
 chmod +x *
 clear
 bash TBomb.sh
 elif [[ $option == 8 || $option == 08 ]]; then
-cd hack/tools/Target/
+cd
+git clone https://github.com/sparkz-technology/Target.git
+cd Target
 chmod +x *
 clear
 bash Target.sh
 elif [[ $option == 15 || $option == fifteen ]]; then
-cd hack/tools/banner
-chmod +x *
-clear
+cd
+git clone https://github.com/sparkz-technology/banner
+cd banner
+bash requirement.sh
 bash ban.sh
 elif [[ $option == 11 || $option == eleven ]]; then
-cd hack/tools/hacklock/
+cd
+git clone https://github.com/sparkz_technology/hacklock
+cd hacklock
 chmod +x *
 clear
 bash hacklock.sh
@@ -77,12 +85,15 @@ clear
 bash req
 elif [[ $option == 14 || $option == fourteen ]]; then
 cd
+git clone https://github.com/mkdirlove/FBTOOL
 cd FBTOOL
 chmod +x *
 clear
 python2 fbtool.py
 elif [[ $option == 1 || $option == 01 ]]; then
-cd hack/tools/phish-all
+cd
+git clone https://github.com/reyspeed/phish-all
+cd phish-all
 chmod +x *
 clear
 bash croot.sh
