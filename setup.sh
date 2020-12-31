@@ -1,5 +1,3 @@
-apt update
-apt upgrade -y
 pkg install python -y
 pkg install python2 -y
 pkg install bash -y
